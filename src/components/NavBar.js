@@ -1,9 +1,15 @@
 import React from "react";
 
 function NavBar() {
-  const links = ["home", "about", "projects"];
+  
 
-  return <nav>{/* display an <a> tag for each link here */}</nav>;
+  return <nav>{
+    <div className="navbarMenu">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+    </div>}
+  </nav>;
 }
 
 export default NavBar;
